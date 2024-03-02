@@ -1,0 +1,186 @@
+table.dataTable td.dt-control:before {
+  margin-top: 5px !important;
+}
+
+@media(min-width: 390px) and (max-width: 390px) and (min-height: 844px) and (max-height: 844px) {
+  table.dataTable td.dt-control:before {
+    margin-top: 10px;
+  }
+
+  body {
+    overflow: auto;
+  }
+  .sidebar{
+    height: 844px;
+  }
+
+  div.datatables_info {
+    padding-right: 0;
+  }
+
+}
+@media(min-width: 844px) and (max-width: 844px) and (min-height: 390px) and (max-height: 390px) {
+  div.datatables_info {
+    padding-right: 0;
+  }
+
+  .btn-table {
+    padding-right: 622px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 768px) and (min-height: 1024px) and (max-height: 1024px) {
+  div.datatables_info {
+    padding-right: 40;
+    padding-left: 0;
+  }
+
+  .btn-table {
+    padding-right: 546px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1024px) and (min-height: 768px) and (max-height: 768px) {
+  div.datatables_info {
+    padding-right: 0;
+  }
+
+  .btn-table {
+    padding-right: 802px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1440px) and (min-height: 900px) and (max-height: 900px) {
+  .btn-table {
+    padding-right: 1218px;
+  }
+}
+html, body, h1, h2, form, label, header{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+html, body{
+    padding: 0;
+    margin: 0;
+    background: #bdbdbd;
+    font-family: 'Raleway', sans-serif;
+}
+label{
+    font-weight: bold;
+}
+table{
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    width: 75%;
+    box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.2);
+}
+thead{
+    background-color: #11101d;
+    color: white;
+}
+th, td{
+    padding: 15px;
+}
+th{
+    border: 1px solid #ddd;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: bold;
+}
+td{
+    font-size: 12px;
+    border: 1px solid #ddd;
+}
+.btn-block{
+    background: #00b4b4;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 11px;
+    padding: 10px 22px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+h2{
+    font-size: 24px;
+    color: #333;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin: 1em 0em .5em 0em;
+}
+h2, h1{
+    margin: 0;
+    padding: 20px;
+    font-family: 'Relaway', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+.listas{
+    display: inline-block;
+    text-align: center;
+}
+.cuadro{
+    padding: 40px 40px;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    min-height: 75vh;
+}
+.container{
+    max-width: 890px;
+    margin: 0 auto;
+}
+.form.info{
+    margin: 40px 0;
+}
+.info{
+    box-sizing: border-box;
+    padding: 3em 3.5em;
+    width: 450px;
+    background: #fff;
+    box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.input.group{
+    margin-bottom: 25px;
+    padding: 0px 0px;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+.btn-primary:hover {
+    background-color: #3d83a4;
+    color: #fff;
+}
+#btn{
+    width: 150px;
+}
+#logout{
+    float: right;
+    text-decoration: none;
+}
+#btn1{
+    width: 150px;
+}
+a{
+    text-decoration: none;
+}
+input[type="text"], input[type="date"], input[type="time"], input[type="password"], select input[type="number"]{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    padding: 14px 15px 12px 35px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    outline: 20px;
+    background: transparent;
+    letter-spacing: .5px;
+    border-bottom: 1px solid black;
+}
